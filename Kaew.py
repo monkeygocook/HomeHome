@@ -1,6 +1,9 @@
 print ('Hello world I am Kaew')
-a = 10.45 
-b = 20.98
-c = 30.132565465
+import math 
+a = float(input('Enter a = '))
+b = float(input('Enter b = '))
 
-print (a+b+b+a+a*a+c-c/78)
+c = math.sqrt(a**2 + b**2)
+d = c*e
+
+print (c,d)
