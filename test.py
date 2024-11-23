@@ -1,8 +1,9 @@
 import math
+
 ndeg = float(input('Enter Angle<degree> = '))
-nrad = ndeg * (pi/180)
-print(ndeg,'degree =',nrad,'rad')
+nrad = ndeg * (math.pi / 180)
+print(ndeg, 'degree =', nrad, 'rad')
 
-s = sin(nrad)
+s = math.sin(nrad)
 
-print('Angle <degree>',ndeg,s,'sine is',s)
+print('Angle <degree>', ndeg, 'sine is', s)
